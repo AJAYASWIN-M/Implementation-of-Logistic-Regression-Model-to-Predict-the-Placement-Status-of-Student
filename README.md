@@ -27,7 +27,7 @@ To write a program to implement the the Logistic Regression Model to Predict the
 #### Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 #### Developed by : AJAY ASWIN M
 #### RegisterNumber : 212222240005
-```
+```python
 import pandas as pd
 data=pd.read_csv('Placement_Data.csv')
 data.head()
@@ -84,42 +84,42 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 ## OUTPUT:
 
-### Placement_data
-![311776280-2d30f6e7-146a-4759-b90e-6e50676a2bc8](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/f6382a72-2857-4520-81a2-cc7f4a5c1727)
-
-### Salary_data
-![311776407-0d52c60f-4712-4e31-bdac-8ab2b3229c47](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/7073f537-bf11-4aaa-9b46-99124bbf7788)
-
-### ISNULL()
-![311776510-b9f45afa-0d93-421f-9d73-d3fc072250e6](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/106b184c-99de-4034-9e19-e1288ea9bde2)
+### 1. Placement_data
+![311776280-2d30f6e7-146a-4759-b90e-6e50676a2bc8](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/6ad376df-02e7-4d13-ba37-645ff36c5f06)
 
 
-### DUPLICATED()
-![311776804-dcf0bf6e-543f-41d2-82f8-2cb93777173e](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/9ee083df-488e-413b-9d35-4541ddeeba0f)
+### 2. Salary_data
+![266196827-0dd174c9-5101-44ef-bc5e-c6d171f3cec2](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/5650c072-bb0f-4ae9-9b23-96d64b01e83c)
 
-### Print Data
-![311777071-4659883d-f53a-4d4d-8183-8b36cd480d45](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/a8095bec-d5c2-4218-9fb4-ef73f38296e3)
+### 3. ISNULL()
+![311776510-b9f45afa-0d93-421f-9d73-d3fc072250e6](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/58df6db6-79be-4a87-8dfe-aa3b7c303edc)
 
-### iloc[:,:-1]
-![311777668-dd8c3742-8749-4cac-ad58-cdf86433b80b](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/51931693-b169-4ad4-a274-8863ec0bba38)
+### 4. DUPLICATED()
+![311776804-dcf0bf6e-543f-41d2-82f8-2cb93777173e](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/904fe17f-1884-49d9-9923-df9ec03f5f6d)
 
-### Data_Status
-![311777821-af901a2d-25fe-493e-9d6c-ec33cbf23e90](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/b57bcf7b-c13d-4d71-a6f2-275cc9d38f4a)
+### 5. Print Data
+![311777071-4659883d-f53a-4d4d-8183-8b36cd480d45](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/616dbc71-3349-4905-aaf1-6601cd5dd536)
 
-### Y_Prediction array:
-![311778090-50a32c48-d67d-49ab-9e0c-20140d857436-1](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/e1b2f5a3-8f84-42a0-b84e-574c23aa12d3)
+### 6.iloc[:,:-1]
+![311777668-dd8c3742-8749-4cac-ad58-cdf86433b80b](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/2177ba47-4fd8-4947-b522-4a044e2ae41c)
 
-### Accuray value:
-![311778202-77b946f3-a6b2-4a98-8566-ca6878cacad6](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/2b941d2c-b078-4b80-b578-b4f784a37396)
+### 7.Data_Status
+![311777821-af901a2d-25fe-493e-9d6c-ec33cbf23e90](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/1f870de8-830d-4d76-8e30-ac7fa2937099)
 
-### Confusion Array:
-![311778303-7edbb883-e626-428b-9648-e8726cb252e5](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/14f7a044-e6d5-4e25-9a5e-f39f047acc51)
+### 8.Y_Prediction array:
+![311778090-50a32c48-d67d-49ab-9e0c-20140d857436](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/74ac4f1b-c69d-4fa1-a22c-931031a11b17)
 
-### Classification report:
-![311778375-05e10820-342d-4c64-b51d-c73795e46d92](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/b437ac2d-474a-4d6f-906d-50d3f544e829)
+### 9.Accuray value:
+![311778202-77b946f3-a6b2-4a98-8566-ca6878cacad6](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/922470f0-359a-4084-8a9f-d296a151eba4)
 
-### Prediction of LR:
-![311775722-05562708-e9ca-43a3-8981-a5834e4a2948](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/66b14f82-486b-43dd-9cdb-3d672757dcaf)
+### 10.Confusion Array:
+![311778303-7edbb883-e626-428b-9648-e8726cb252e5](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/936fada0-ca40-4068-82e1-07034c1711e8)
+
+### 11. Classification report:
+![311778375-05e10820-342d-4c64-b51d-c73795e46d92](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/66acbc38-f209-4029-aaa1-db1f0e1afbc8)
+
+### 12. Prediction of LR:
+![311775722-05562708-e9ca-43a3-8981-a5834e4a2948](https://github.com/AJAYASWIN-M/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118679692/7955cc32-eb14-4004-b193-9635bc0ca53d)
 
 
 ## RESULT :
